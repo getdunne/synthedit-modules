@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<PluginList>
+  <Plugin id="Karplus-Strong Delay" name="Karplus-Strong Delay" category="Shane Dunne" helpUrl="Karplus_strong_delay.htm">
+    <Audio>
+      <Pin name="Signal In" datatype="float" rate="audio" />
+      <Pin name="Pitch" datatype="float" rate="audio" default="5" />
+      <Pin name="Feedback" datatype="float" rate="audio" default="1" />
+      <Pin name="Signal Out" datatype="float" rate="audio" direction="out" />
+    </Audio>
+  </Plugin>
+</PluginList>

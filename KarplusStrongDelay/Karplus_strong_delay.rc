@@ -46,26 +46,14 @@ END
 
 #endif    // APSTUDIO_INVOKED
 
-#endif    // English (U.S.) resources
-/////////////////////////////////////////////////////////////////////////////
-
-
-/////////////////////////////////////////////////////////////////////////////
-// English (New Zealand) resources
-
-#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENZ)
-#ifdef _WIN32
-LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_NZ
-#pragma code_page(1252)
-#endif //_WIN32
 
 /////////////////////////////////////////////////////////////////////////////
 //
 // GMPXML
 //
 
-IDR_GMPXML1             GMPXML                  "KSDelay.xml"
-#endif    // English (New Zealand) resources
+IDR_GMPXML1             GMPXML                  "Karplus_strong_delay.xml"
+#endif    // English (U.S.) resources
 /////////////////////////////////////////////////////////////////////////////
 
 
