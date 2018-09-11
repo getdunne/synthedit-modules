@@ -11,6 +11,8 @@
 namespace AudioKitCore
 {
     class AdjustableDelayLine {
+
+    protected:
         double sampleRateHz;
         double delayMsec;
         float dryFraction;

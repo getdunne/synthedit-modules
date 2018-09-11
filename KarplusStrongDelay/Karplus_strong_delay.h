@@ -1,6 +1,6 @@
 #pragma once
 #include "../se_sdk3/mp_sdk_audio.h"
-#include "AdjustableDelayLine.hpp"
+#include "KarplusStrongDelayLine.h"
 
 #define MAX_DELAY_MS 80.0
 #define INITIAL_DELAY_MS (1000.0/440.0)
@@ -20,5 +20,5 @@ private:
 	AudioInPin pinPitch, pinFeedback;
 	AudioOutPin pinOutput;
 
-    AudioKitCore::AdjustableDelayLine delayLine;
+    KarplusStrongDelayLine delayLine;
 };

@@ -199,7 +199,9 @@
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <None Include="Karplus_strong_delay.xml" />
+    <None Include="Karplus_strong_delay.xml">
+      <SubType>Designer</SubType>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\se_sdk3\mp_sdk_common.cpp" />
@@ -209,6 +211,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AdjustableDelayLine.hpp" />
+    <ClInclude Include="KarplusStrongDelayLine.h" />
     <ClInclude Include="resource.h" />
     <ClInclude Include="..\se_sdk3\mp_sdk_common.h" />
     <ClInclude Include="..\se_sdk3\mp_sdk_audio.h" />

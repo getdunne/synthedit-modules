@@ -22,6 +22,7 @@
       <Filter>Resources</Filter>
     </ClInclude>
     <ClInclude Include="AdjustableDelayLine.hpp" />
+    <ClInclude Include="KarplusStrongDelayLine.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Karplus_strong_delay.xml" />
