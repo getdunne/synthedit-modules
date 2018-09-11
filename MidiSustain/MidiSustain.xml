@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<PluginList>
+  <Plugin id="MIDI Sustain" name="MidiSustain" category="Shane Dunne" helpUrl="MidiSustain.htm">
+    <Audio>
+      <Pin name="MIDI In" datatype="midi" />
+      <Pin name="MIDI Out" datatype="midi" direction="out" />
+    </Audio>
+  </Plugin>
+</PluginList>
