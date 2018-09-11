@@ -6,3 +6,4 @@ This SynthEdit Module uses a variable-length 1-tap digital delay to provide the 
 
 Following the original [Karplus-Strong algorithm definition](https://ccrma.stanford.edu/~jos/pasp/Karplus_Strong_Algorithm.html), this module adds a simple two-sample moving-average filter to the feedback path of the delay-line. More sophisticated filters could be substituted for different sounds.
 
+The SynthEdit project file *KSexample.se1* illustrates how to make a complete monophonic Karplus-Strong synthesizer. (Thanks to [Ian Webster](https://www.facebook.com/Krakli) for the first version.)
