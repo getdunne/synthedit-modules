@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<PluginList>
+  <Plugin id="Soundpipe Phaser" name="spPhaser" category="Shane Dunne" helpUrl="spPhaser.htm">
+    <Audio>
+        <Pin id="0" name="Input L" direction="in"  datatype="float" rate="audio" default="0.0" />
+        <Pin id="1" name="Input R" direction="in"  datatype="float" rate="audio" default="0.0" />
+
+        <Pin id="2" name="MaxNotch1Freq" direction="in"  datatype="float" default="800.0" />
+        <Pin id="3" name="MinNotch1Freq" direction="in"  datatype="float" default="100.0" />
+        <Pin id="4" name="NotchWidth" direction="in"  datatype="float" default="1000.0" />
+        <Pin id="5" name="NotchFreq" direction="in"  datatype="float" default="1.5" />
+        <Pin id="6" name="VibratoMode" direction="in"  datatype="float" default="1.0" />
+        <Pin id="7" name="Depth" direction="in"  datatype="float" default="1.0" />
+        <Pin id="8" name="Feedback" direction="in"  datatype="float" default="0.0" />
+        <Pin id="9" name="Invert" direction="in"  datatype="float" default="0.0" />
+        <Pin id="10" name="Level" direction="in"  datatype="float" default="0.0" />
+        <Pin id="11" name="LFO_BPM" direction="in"  datatype="float" default="30.0" />
+
+        <Pin id="12" name="Output L" direction="out" datatype="float" rate="audio" />
+        <Pin id="13" name="Output R" direction="out" datatype="float" rate="audio" />
+    </Audio>
+  </Plugin>
+</PluginList>
